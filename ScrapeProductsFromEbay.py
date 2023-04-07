@@ -1,12 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
+#Loading Packages
 
-# In[20]:
-
-
-#Loading Packages¶
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -16,7 +9,10 @@ import numpy as np
 header = {'User-Agent':'Mozilla/5.0'}
 
 
-# In[21]:
+#Code to save console in a text file
+# import sys 
+# file_path = 'screen.txt'
+# sys.stdout = open(file_path, "w")
 
 
 #function to loads eBay's search result page 
@@ -27,18 +23,12 @@ def load_page(url,pgn):
     return soup
 
 
-# In[22]:
-
-
 #function to save the loaded page as htm in local
 def save_page(index,soup):
     filename = "amazon_gift_card_" + str(index) + ".htm"
     with open(filename, "w", encoding = 'utf-8') as file:
      file.write(str(soup))
     print("Saved File:", filename)
-
-
-# In[23]:
 
 
 #function to load file from folder and parses them to a Python object.
@@ -59,8 +49,6 @@ def load_file(index):
     return div
 
 
-# In[27]:
-
 
 #function to print title, price and shipping
 def print_details(df,i):
@@ -74,15 +62,9 @@ def print_details(df,i):
         df.loc[len(df.index)] = [title, price, shipping]
 
 
-# In[25]:
-
-
 #function to get values using regex 
 def regex_sub(text):
     return re.sub(".*?([.0-9]+).*",r"\1",text)
-
-
-# In[28]:
 
 
 def main():
@@ -147,10 +129,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-# In[ ]:
-
-
-
 
