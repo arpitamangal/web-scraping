@@ -5,5 +5,5 @@ Scrape the Title, Price and Shipping of products on first 10 pages of search res
 
 Identify gift cards face value from Title using Regex
 
-Compare the price + shipping and face value to get the fraction
+Compare face value with price + shipping to get the fraction
 
