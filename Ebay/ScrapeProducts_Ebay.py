@@ -10,9 +10,9 @@ header = {'User-Agent':'Mozilla/5.0'}
 
 
 #Code to save console in a text file
-# import sys 
-# file_path = 'screen.txt'
-# sys.stdout = open(file_path, "w")
+import sys 
+file_path = 'screen.txt'
+sys.stdout = open(file_path, "w")
 
 
 #function to loads eBay's search result page 
