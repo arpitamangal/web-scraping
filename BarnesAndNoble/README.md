@@ -1,1 +1,2 @@
-# Code that loads the first page with 40 items per page of “B&N Top 100” and access the overview of each book.
+# Web Scraping: Book Overview From Barnes and Noble
+Access the overview of 40 books on B&N Top 100.
