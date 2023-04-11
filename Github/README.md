@@ -1,4 +1,4 @@
-# Who are the Apache Hadoop Github Repo's top contributors? 
+# Who are the top contributors of Apache Hadoop Github Repo's? 
 
 ### Leveraging GitHub API 
 
