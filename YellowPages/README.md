@@ -11,7 +11,7 @@ From the saved page, parse out all shop information (search rank, name, linked U
 Create a MongoDB collection called “sf_pizzerias” that stores all the extracted shop information, one document for each shop.
 
 
-### To get address and geolocation 
+### Get address and geolocation 
 
 Download each shop's page (stored as linked UR). Store the page to disk, “sf_pizzerias_[SR].htm” (where [SR] is the search rank). Parse each shop’s address, phone number, and website
 
