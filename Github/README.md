@@ -2,6 +2,13 @@
 
 ### Leveraging GitHub API 
 
+
+
 Generate a personal access token on github.
+
 Go to Apache Hadoop Github Repo's contributors’ endpoint. 
-Extract the JSON corresponding to the first 100 contributors from this API. Parse the information and store as a SQL database.
+
+Extract the JSON corresponding to the first 100 contributors from this API. 
+
+Parse the information and store as a SQL database.
+
