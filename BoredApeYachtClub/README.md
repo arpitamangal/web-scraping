@@ -1,6 +1,6 @@
 # Scraping Data and Storing in MongoDB: Selenium & Pymongo
 
-- Clicks and saves the page for each of the top-8 most expensive Bored Apes with “Solid gold” fur listed on [The Bored Ape Yacht Club.] (https://opensea.io/collection/boredapeyachtclub?search[sortAscending]=false&search[stringTraits][0][name]=Fur&search[stringTraits][0][values][0]=Solid%20Gold)
+- Clicks and saves the page for each of the top-8 most expensive Bored Apes with “Solid gold” fur listed on [The Bored Ape Yacht Club](https://opensea.io/collection/boredapeyachtclub?search[sortAscending]=false&search[stringTraits][0][name]=Fur&search[stringTraits][0][values][0]=Solid%20Gold)
 
 - Scrapes the ape’s name (its number) and its attributes (background, eyes, fur, hat, mouth, earring, cloth).
  
