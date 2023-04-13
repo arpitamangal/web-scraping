@@ -1,9 +1,11 @@
-# What fraction of Amazon gift cards sells above face value?
-Search for Amazon gift cards on Ebay 
+# What percentage of Amazon gift cards sells above face value?
 
-Scrape the Title, Price and Shipping of products on first 10 pages of search results
+- Searches for Amazon gift cards on Ebay via "url"
 
-Identify gift cards face value from Title using Regex
+- Scrapes the Title, Price and Shipping of products on first 10 pages of search results
 
-Compare face value with price + shipping to get the fraction
+- Identifies gift cards face value from Title using Regex
 
+- Compares face value with price + shipping to get the percentage
+
+Result: About 42% of the amazon gift cards sell above face value on Ebay
