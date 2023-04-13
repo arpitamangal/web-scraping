@@ -1,6 +1,6 @@
 # What percentage of Amazon gift cards sells above face value?
 
-- Searches for Amazon gift cards on Ebay via "https://www.ebay.com/sch/i.html?_nkw=amazon+gift+card&LH_Sold=1&_pgn=1"
+- Searches for Amazon gift cards on Ebay via [url.](https://www.ebay.com/sch/i.html?_nkw=amazon+gift+card&LH_Sold=1&_pgn=1)
 
 - Scrapes the Title, Price and Shipping of products on first 10 pages of search results
 
