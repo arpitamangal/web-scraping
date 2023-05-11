@@ -1,6 +1,5 @@
-# Scrape resturant information, their geolocation and save in MongoDB
-
-## Yellow Pages and Position Stack
+## Locate Pizzeria in San Francisco
+Scrape resturant information, their geolocation and save in MongoDB : Yellow Pages and Position Stack
 
 ### Scrape Shop Information
 Search on yellowpages.com for the top 30 “Pizzeria” in San Francisco and save the page as, “sf_pizzeria_search_page.htm”.
